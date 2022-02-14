@@ -1,0 +1,44 @@
+version: "3.8"
+services:
+  onless_db:
+    container_name: post_db
+    restart: always
+    image: postgres
+    env_file:
+      - .env
+    environment:
+      - POSTGRES_DB=${POSTGRES_DB}
+      - POSTGRES_USER=${POSTGRES_USER}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+      - POSTGRES_HOST_AUTH_METHOD=md5
+    volumes:
+      - pgdata:/var/lib/postgresql/data:rw
+    expose:
+      - 5432
+  onless_web:
+    container_name: post_web
+    restart: always
+    image: post_web:latest
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile
+    volumes:
+      - ..:/code
+    ports:
+      - "7777:8000"
+    depends_on:
+      - post_db
+    env_file:
+      - .env
+    environment:
+      - PRODUCTION=True
+      - POSTGRES_DB=${POSTGRES_DB}
+      - POSTGRES_USER=${POSTGRES_USER}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+      - POSTGRES_HOST=post_db
+      - POSTGRES_PORT=5432
+      - TZ=Asia/Tashkent
+volumes:
+  pgdata:
+    external: true
+    name: postdata
