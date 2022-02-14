@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "post_backend"
+version = "0.1.0"
+description = ""
+authors = ["yakubov <yakubov9791999@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+djangorestframework = "3.13.1"
+djoser = "2.1.0"
+djangorestframework-simplejwt = "4.8.0"
+django-cors-headers = "^3.11.0"
+python-dotenv = "^0.19.2"
+psycopg2-binary = "^2.9.3"
+Pillow = "^9.0.1"
+django-filter = "^21.1"
+django-tinymce = "^3.4.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
