@@ -51,7 +51,6 @@ THIRD_PARTY_APPS = [
     'djoser',
     'rest_framework_simplejwt',
     'corsheaders',
-    'tinymce',
 ]
 
 INSTALLED_APPS = DJANGO_APPS + LOCAL_APPS + THIRD_PARTY_APPS

@@ -14,7 +14,6 @@ python-dotenv = "^0.19.2"
 psycopg2-binary = "^2.9.3"
 Pillow = "^9.0.1"
 django-filter = "^21.1"
-django-tinymce = "^3.4.0"
 
 [tool.poetry.dev-dependencies]
 
