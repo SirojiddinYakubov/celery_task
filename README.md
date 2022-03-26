@@ -1,6 +1,6 @@
-# README initial-django #
+# README celery_task #
 
-# This is initial settings Django
+# This is Celery Task Project
 
 ### How to install this project ###
 
@@ -9,7 +9,15 @@
 * python -m venv venv
 * source venv/bin/activate
 * pip install poetry
-* poetry init
 * poetry install
+* python manage.py runserver
+
+### start celery and flower monitoring ###
+* celery -A conf worker -l INFO --detach
+* celery -A conf beat -l INFO --detach
+* celery -A conf flower
+
+### create task http://127.0.0.1:8000/api/v1/task/message/create/
+### open flower http://127.0.0.1:5555 ###
 
 

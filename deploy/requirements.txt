@@ -1,44 +1,61 @@
+amqp @ file:///home/yakubov/.cache/pypoetry/artifacts/a8/a0/48/47109b38e3f6ae1016a840aa7c6ceeb97bfca27199bea3adac359e4482/amqp-5.1.0-py3-none-any.whl
 asgiref @ file:///home/yakubov/.cache/pypoetry/artifacts/97/19/96/6fe4e79be71b46c24f8ad1d77086edd058efc60976b764fcac45c2e160/asgiref-3.5.0-py3-none-any.whl
+async-timeout @ file:///home/yakubov/.cache/pypoetry/artifacts/62/ff/30/bd0ec891880d93bf40cf6e7c53ab08dd9eb6af45fa532c030731e6eed0/async_timeout-4.0.2-py3-none-any.whl
+billiard @ file:///home/yakubov/.cache/pypoetry/artifacts/cf/59/06/55d38419b5aa6e1fe731cb9d5dfdc4fa930000cc089eb421e3d039cfc2/billiard-3.6.4.0-py3-none-any.whl
 CacheControl==0.12.10
 cachy==0.3.0
+celery @ file:///home/yakubov/.cache/pypoetry/artifacts/13/f0/12/3aacbfdf7fb55b35301ae6889ddac1e922c121a93c3ebb365b74806ad0/celery-5.2.3-py3-none-any.whl
 certifi==2021.10.8
 cffi==1.15.0
 charset-normalizer==2.0.12
 cleo==0.8.1
+click @ file:///home/yakubov/.cache/pypoetry/artifacts/fb/bd/e7/ac3267cdaa4ac3cfcde3b3d14d7d2b92aaf38d8a34437d49e873b8289e/click-8.0.4-py3-none-any.whl
+click-didyoumean @ file:///home/yakubov/.cache/pypoetry/artifacts/fc/14/66/e0f912d7ee8b42454ca7c5b7b2a5b9cec16198ea38cb018c904fc95c87/click_didyoumean-0.3.0-py3-none-any.whl
+click-plugins @ file:///home/yakubov/.cache/pypoetry/artifacts/87/75/c3/fb63a9b9f496004a8bf69eb791be6e419ca0cd59f1d7e250a1bd8322e3/click_plugins-1.1.1-py2.py3-none-any.whl
+click-repl @ file:///home/yakubov/.cache/pypoetry/artifacts/36/62/78/c7266ac6c43eed045786703622efa441aeb52948537f4332c66609e511/click_repl-0.2.0-py3-none-any.whl
 clikit==0.6.2
 coreapi @ file:///home/yakubov/.cache/pypoetry/artifacts/a1/d2/42/9daa39a9a9b2daf74f734f46589930a09bad232e4aff2d1813be140030/coreapi-2.3.3-py2.py3-none-any.whl
 coreschema==0.0.4
 crashtest==0.3.1
-cryptography==36.0.1
+cryptography @ file:///home/yakubov/.cache/pypoetry/artifacts/84/cf/c4/5ed0034b68c5e75ce7f91e42b8793b1f69003bcd83834eedf242b8ba50/cryptography-36.0.1-cp36-abi3-manylinux_2_24_x86_64.whl
 defusedxml @ file:///home/yakubov/.cache/pypoetry/artifacts/2b/69/07/7b13f7eaf3a4d7af737dcebe24d3d17b1c2a2f457fbddf746f5642bc43/defusedxml-0.7.1-py2.py3-none-any.whl
+Deprecated @ file:///home/yakubov/.cache/pypoetry/artifacts/02/6c/d9/698c9c1be5d7e779bb2ff730bae7fb601b8d636233ca2ba1548761a514/Deprecated-1.2.13-py2.py3-none-any.whl
 distlib==0.3.4
 Django @ file:///home/yakubov/.cache/pypoetry/artifacts/1c/7c/51/a276c80aa5818be589ab5903fb478336d88ab828d262aecafe5f6c2419/Django-4.0.2-py3-none-any.whl
 django-cors-headers @ file:///home/yakubov/.cache/pypoetry/artifacts/fa/e5/56/9198ecd14af0ca2cc975c0e8570374addcdbcb45de6b9cc456156fa487/django_cors_headers-3.11.0-py3-none-any.whl
 django-filter @ file:///home/yakubov/.cache/pypoetry/artifacts/a9/c6/98/7cc5361bf7dd56b5125c00f61aaf4c4a2c94e438288814f48d6cc4fe3b/django_filter-21.1-py3-none-any.whl
 django-templated-mail @ file:///home/yakubov/.cache/pypoetry/artifacts/8f/05/16/2de1a9f26569fb149aaed51dc3aa0238165f7c8aff822b017fee9f958f/django_templated_mail-1.1.1-py3-none-any.whl
+django-tinymce @ file:///home/yakubov/.cache/pypoetry/artifacts/d7/41/d1/f90f4b3770b049bcfa42442d773d768d530a1983e15374ac17ac985bdd/django_tinymce-3.4.0-py3-none-any.whl
 djangorestframework @ file:///home/yakubov/.cache/pypoetry/artifacts/4a/0e/8b/eb31ad1f5a8d0aef287e2de8aeed7d250803677468c74b0abd296678b8/djangorestframework-3.13.1-py3-none-any.whl
 djangorestframework-simplejwt @ file:///home/yakubov/.cache/pypoetry/artifacts/7b/dc/a6/e53d39f93817231b28801e06accfdb6edb4f04ce8df6dfa16bfa0363b2/djangorestframework_simplejwt-4.8.0-py3-none-any.whl
 djoser @ file:///home/yakubov/.cache/pypoetry/artifacts/38/0b/0d/c9dd01df566368943aa4fd2ba831f0a609cc60be599999cc5aca612234/djoser-2.1.0-py3-none-any.whl
-filelock==3.4.2
+drf-yasg @ file:///home/yakubov/.cache/pypoetry/artifacts/29/ab/97/7e0b36792ae4427acbe5d78d8442bd592d77021892ec1138e9824b9111/drf_yasg-1.20.0-py2.py3-none-any.whl
+filelock==3.6.0
+flower @ file:///home/yakubov/.cache/pypoetry/artifacts/45/b4/77/f934a0b45dcef9a88c76cdc9a4b252c2f8b00c4292431f59f0a36c4933/flower-1.0.0-py2.py3-none-any.whl
 html5lib==1.1
+humanize @ file:///home/yakubov/.cache/pypoetry/artifacts/26/14/58/572658ad7c39662caf54f50b2dbda3cca34e644a0dfa9274b1b9e2d6df/humanize-4.0.0-py3-none-any.whl
 idna==3.3
-importlib-metadata==4.11.0
+importlib-metadata==4.11.3
+inflection @ file:///home/yakubov/.cache/pypoetry/artifacts/2f/ed/82/68adaa9865195edc03da6786b66cc708b169265e333e239c28b11e9a4d/inflection-0.5.1-py2.py3-none-any.whl
 itypes @ file:///home/yakubov/.cache/pypoetry/artifacts/ad/65/69/17a3a1ab828578556a7d79b3dbe47228126257b8630b5306752f7ace76/itypes-1.2.0-py2.py3-none-any.whl
 jeepney==0.7.1
 Jinja2 @ file:///home/yakubov/.cache/pypoetry/artifacts/3b/12/80/ed05a8559d6ad1e85324dbcebfe790670d339c674fb15c419b29aae138/Jinja2-3.0.3-py3-none-any.whl
 keyring==23.5.0
+kombu @ file:///home/yakubov/.cache/pypoetry/artifacts/8c/c5/23/3e6fc173bdc7818f2850eac2e3c739a638c9481369e0f3bf9811dcbdd9/kombu-5.2.4-py3-none-any.whl
 lockfile==0.12.2
 MarkupSafe @ file:///home/yakubov/.cache/pypoetry/artifacts/ec/52/15/121903cbf3e26335764efabbe86a236389d359c3c9e9d060c2d90c5f01/MarkupSafe-2.0.1-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl
 msgpack==1.0.3
 oauthlib @ file:///home/yakubov/.cache/pypoetry/artifacts/c6/3b/22/7300b1ccd5ea2dcd9b482a293df3be32bb19012ce24601d545a3cb94b9/oauthlib-3.2.0-py3-none-any.whl
-packaging==20.9
+packaging @ file:///home/yakubov/.cache/pypoetry/artifacts/47/3f/ce/b240169f7d8bef1ff24a0269b709721ce86543c2ec25e0b6adb2c2d7ac/packaging-21.3-py3-none-any.whl
 pastel==0.2.1
 pexpect==4.8.0
 Pillow @ file:///home/yakubov/.cache/pypoetry/artifacts/0c/14/ac/e6cff4d8ea9c602d2a5eaaf22e51be0a17dc51b1344f0c1f22694b52a5/Pillow-9.0.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
 pkginfo==1.8.2
-platformdirs==2.5.0
+platformdirs==2.5.1
 poetry==1.1.13
-poetry-core==1.0.7
+poetry-core==1.0.8
+prometheus-client @ file:///home/yakubov/.cache/pypoetry/artifacts/24/31/09/f8932282bdc2f8000ef07f8f1ba87125d7162c538e705b8dc5a3a50852/prometheus_client-0.13.1-py3-none-any.whl
+prompt-toolkit @ file:///home/yakubov/.cache/pypoetry/artifacts/10/eb/01/0c438e83f168b89ab07bda4768ab09d84c4650eda85acaf3bdc78248ae/prompt_toolkit-3.0.28-py3-none-any.whl
 psycopg2-binary @ file:///home/yakubov/.cache/pypoetry/artifacts/94/ac/90/f784541d1d49caa6ed277fd52527d966505b9420b43a1de15d2f021cdc/psycopg2_binary-2.9.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
 ptyprocess==0.7.0
 pycparser==2.21
@@ -48,18 +65,26 @@ pyparsing==3.0.7
 python-dotenv @ file:///home/yakubov/.cache/pypoetry/artifacts/5b/d0/1b/25c6bbc2c828652b337720dc85e45350ab608aae80057b49ce5c6a0c7b/python_dotenv-0.19.2-py2.py3-none-any.whl
 python3-openid @ file:///home/yakubov/.cache/pypoetry/artifacts/1f/82/2a/9ee77fff1d166e4fb92a4e474625188183ed34c63cf73820cd4c41120a/python3_openid-3.2.0-py3-none-any.whl
 pytz @ file:///home/yakubov/.cache/pypoetry/artifacts/3e/f3/dd/6629bf5ed0a970a128e0a015f2af3b67280e749a56fdaabdaa06d5fc6b/pytz-2021.3-py2.py3-none-any.whl
+redis @ file:///home/yakubov/.cache/pypoetry/artifacts/b3/26/43/35e5d532a33327ed01f9109b1fafb040e8cf1c154327c1e53273f0687f/redis-4.2.0-py3-none-any.whl
 requests==2.27.1
 requests-oauthlib @ file:///home/yakubov/.cache/pypoetry/artifacts/33/73/31/43c706dd726dc855100e4221ec8d5a1b0a0e1587af3af00c76d1da9134/requests_oauthlib-1.3.1-py2.py3-none-any.whl
 requests-toolbelt==0.9.1
+ruamel.yaml @ file:///home/yakubov/.cache/pypoetry/artifacts/7c/2c/48/111028a9e95097a5ff404a2dc3c1990c911bec7802cb01366c06a9919d/ruamel.yaml-0.17.21-py3-none-any.whl
+ruamel.yaml.clib @ file:///home/yakubov/.cache/pypoetry/artifacts/52/95/75/d1a001b469ea6ed66dd6f4194c9f7eb370223816cf6292be2a8213e9a4/ruamel.yaml.clib-0.2.6-cp39-cp39-manylinux1_x86_64.whl
 SecretStorage==3.3.1
 shellingham==1.4.0
 six==1.16.0
 social-auth-app-django @ file:///home/yakubov/.cache/pypoetry/artifacts/e1/96/6e/be31cd3fbd85e124971d7656563e212c802b809b6534ac9d148d8c1e43/social_auth_app_django-4.0.0-py3-none-any.whl
 social-auth-core @ file:///home/yakubov/.cache/pypoetry/artifacts/49/b5/33/d065ca3c5a098bc2642410e750db376cd2deef5aa639d91d58555dc926/social_auth_core-4.2.0-py3-none-any.whl
 sqlparse @ file:///home/yakubov/.cache/pypoetry/artifacts/ea/fd/ba/117a876397913faee210ef8bac93829e22ad9232662e656971383c0718/sqlparse-0.4.2-py3-none-any.whl
-tomlkit==0.9.2
+tomlkit==0.10.0
+tornado @ file:///home/yakubov/.cache/pypoetry/artifacts/32/ff/76/0fc7d26eab2180c92fa57552212f38defaf212ceb7ddc9432bd84d646c/tornado-6.1-cp39-cp39-manylinux2010_x86_64.whl
+typing_extensions @ file:///home/yakubov/.cache/pypoetry/artifacts/9b/2e/e0/f2f5524348ab0c59b31fc2526543d60a53583608f35a4574a4978f5358/typing_extensions-4.1.1-py3-none-any.whl
 uritemplate @ file:///home/yakubov/.cache/pypoetry/artifacts/1a/e2/cb/249c8899e583da59e638cdc64c159f34786ab2c1c72e980c6c12d824fd/uritemplate-4.1.1-py2.py3-none-any.whl
-urllib3==1.26.8
-virtualenv==20.13.1
+urllib3 @ file:///home/yakubov/.cache/pypoetry/artifacts/08/31/b3/80f34f2cc3040aa919aadae0d0960e1a2e5436c5eec2f8c81f9b4b7f45/urllib3-1.26.8-py2.py3-none-any.whl
+vine @ file:///home/yakubov/.cache/pypoetry/artifacts/c1/80/fc/ccb677b19dd37eb7ad77b94745e563b67472b45dbcfb34e75a6110f12f/vine-5.0.0-py2.py3-none-any.whl
+virtualenv==20.13.4
+wcwidth @ file:///home/yakubov/.cache/pypoetry/artifacts/7d/f4/60/0737157bb9711fec72c70dff523aa54491eef317e0d586cf5388ff0908/wcwidth-0.2.5-py2.py3-none-any.whl
 webencodings==0.5.1
+wrapt @ file:///home/yakubov/.cache/pypoetry/artifacts/e4/60/ec/d2fa694f7c283300b371e8bef490a9f7d48af4abc7bbc53541cc8a8608/wrapt-1.14.0-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
 zipp==3.7.0

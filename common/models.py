@@ -1,6 +1,5 @@
 from django.db import models
 
-# Create your models here.
 class BaseModel(models.Model):
     is_active = models.BooleanField()
     created_at = models.DateTimeField(auto_now_add=True)
@@ -8,3 +7,6 @@ class BaseModel(models.Model):
 
     class Meta:
         abstract = True
+
+
+

@@ -46,11 +46,11 @@ server{
     location = /favicon.ico { access_log off; log_not_found off; }
 
     location /static/ {
-        alias /home/pyth/post/staticfiles/;
+        alias /home/pyth/celery_task/staticfiles/;
     }
 
     location / {
-        proxy_pass http://unix:/home/pyth/post/post.sock;
+        proxy_pass http://unix:/home/pyth/celery_task/celery_task.sock;
         proxy_set_header X-Forwarded-Host $server_name;
         proxy_set_header X-Real-IP $remote_addr;
         add_header P3P 'CP="ALL DSP COR PSAa PSDa OUR NOR ONL UNI COM NAV"';
@@ -63,6 +63,6 @@ server{
     }
 
     location /media/ {
-        alias /home/pyth/post/media/;
+        alias /home/pyth/celery_task/media/;
     }
 }

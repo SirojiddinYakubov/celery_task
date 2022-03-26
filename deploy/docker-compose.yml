@@ -1,7 +1,7 @@
 version: "3.8"
 services:
   onless_db:
-    container_name: post_db
+    container_name: celery_task_db
     restart: always
     image: postgres
     env_file:
@@ -16,9 +16,9 @@ services:
     expose:
       - 5432
   onless_web:
-    container_name: post_web
+    container_name: celery_task_web
     restart: always
-    image: post_web:latest
+    image: celery_task_web:latest
     build:
       context: ..
       dockerfile: deploy/Dockerfile
@@ -27,7 +27,7 @@ services:
     ports:
       - "7777:8000"
     depends_on:
-      - post_db
+      - celery_task_db
     env_file:
       - .env
     environment:
@@ -35,7 +35,7 @@ services:
       - POSTGRES_DB=${POSTGRES_DB}
       - POSTGRES_USER=${POSTGRES_USER}
       - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
-      - POSTGRES_HOST=post_db
+      - POSTGRES_HOST=celery_task_db
       - POSTGRES_PORT=5432
       - TZ=Asia/Tashkent
 volumes:

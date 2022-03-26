@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% if first_name and last_name %}
+    <h1>Assalomu aleykum, {{ last_name }} {{ first_name }}</h1>
+{% endif %}
+<div>{{ content|safe }}</div>
+<script src="{% static 'js/tinymce/tinymce.min.js' %}"></script>
+</body>
+</html>
