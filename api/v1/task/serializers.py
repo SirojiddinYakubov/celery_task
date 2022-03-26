@@ -61,8 +61,3 @@ class MessageDetailSerializer(serializers.ModelSerializer):
             'updated_at',
             'is_active',
         ]
-
-    def to_representation(self, instance):
-        context = super().to_representation(instance)
-        print(send_message())
-        return context

@@ -17,7 +17,7 @@
 * celery -A conf beat -l INFO --detach
 * celery -A conf flower
 
-### create task http://127.0.0.1:8000/api/v1/task/message/create/
+### api documentation http://127.0.0.1:8000/swagger/
 ### open flower http://127.0.0.1:5555 ###
 
 
